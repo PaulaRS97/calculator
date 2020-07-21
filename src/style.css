@@ -1,0 +1,85 @@
+.jumbotron{
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.logo-title{ 
+  margin-top: -90px;
+}
+.output {
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 35px;
+    margin-top: -15px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+  }
+  
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+.style-calculator-operations{
+    text-align: center;
+}
+
+.style-calculator-numbers{
+    text-align: center;
+    padding: 15px;
+}
+
+.btn-light{
+    font-size: 19px;
+    font-weight: bolder;
+    border: black;
+    border-radius: 4px;
+    margin-top: -12px;  
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #e0dede;
+     
+}
+
+.btn-dark{
+    font-size: 19px;
+    font-weight: bolder;
+    background-color: #a6dcef;
+    border: black;
+    border-radius: 4px;  
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.btn-operations:hover{
+    background-color: #3282b8;
+    color:white;
+}
+
+.col-6{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -80px;
+    
+}
+
+.watermark {
+    font-size: 10px;
+    opacity: 0.9;
+    text-align: center;
+    font-family: monospace;
+  }
